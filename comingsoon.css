@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);*/
+    /*background: url("http://static1.squarespace.com/static/563982ebe4b0e18cfe9f8d6f/t/578d562fbe6594c9e1379b69/1468880433537/Social_Media_Background.jpg?format=1500w");*/
+    background: url("images/Blackbg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;      /*Image*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box1{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    bottom: 100%;
+    transform: translate(-45%,100%);
+    text-align: center;
+}
+.text-box1 h1{
+    font-size: 30px;
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    transform: translate(0%,0%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+    background: -webkit-linear-gradient(#9c7733, #e2224c, #ca8b61);   /*ODAASH*/
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(243, 197, 233);
+}
+
+@media(max-width: 700px){ 
+    
+    .text-box1{
+        transform: translate(-35%,100%);
+    }
+    .text-box h1{
+        font-size: 40px;
+    }
+    .text-box1 h1{
+        font-size: 20px;
+    }
+}
